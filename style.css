@@ -17,34 +17,34 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 130px;
+  height: 150px;
   width: 100%;
 }
 
 .triangle {
   width: 0;
   height: 0;
-  border: 9px solid transparent;
-  border-left: 13px solid white;
+  border: 15px solid transparent;
+  border-left: 19px solid white;
   cursor: pointer;
 }
 
 .triangle:hover {
-  border-left: 13px solid rgba(54, 179, 26);
+  border-left: 19px solid rgba(54, 179, 26);
 }
 
 .text {
   color: white;
+  font-size: 28px;
 }
 
 .input {
   background-color: rgba(255, 255, 255);
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 4px;
-  width: 170px;
+  border-radius: 7px;
+  font-size: 28px;
+  padding: 6px;
+  width: 290px;
 }
 
 .input:hover {
@@ -53,7 +53,8 @@ header {
 
 .item {
   display: flex;
-  margin-left: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -64,13 +65,14 @@ header {
 }
 
 .oscar {
-  width: 20px;
+  width: 30px;
 }
 
 #logo {
-  width: 150px;
+  width: 270px;
   opacity: 1;
   cursor: pointer;
+  margin-top: 80px;
 }
 
 #logo:hover {
